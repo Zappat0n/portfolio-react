@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import './App.scss';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import BottomBar from './components/BottomBar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <span className="circle-2"></span>
       <AboutMe />
       <Projects />
+      <BottomBar />
     </div>
   );
 }

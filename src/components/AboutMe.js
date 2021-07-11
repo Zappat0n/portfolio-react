@@ -10,7 +10,7 @@ const AboutMe = () => {
         I am currently improving my coding skills at <a href="https://www.microverse.org/" target="_blank" rel="noopener noreferrer"><strong>Microverse</strong></a>.</p>
       <table className="table table-sm w-100 w-md-50 table-borderless m-auto">
         <thead>
-          <tr className="p-0 m-0">
+          <tr>
             <th>Language</th>
             <th>Frameworks</th>
             <th>Skills</th>
