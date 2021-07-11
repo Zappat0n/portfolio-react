@@ -1,0 +1,10 @@
+@import '../App.scss';
+
+.technology {
+  background: $secundary;
+  color: $primary;
+  font: $font;
+  font-weight: 700;
+  margin: 0.5rem;
+  border-radius: .25rem;
+}
