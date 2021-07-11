@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar'
 import './App.scss';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -8,9 +9,10 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <span class="circle-1"></span>
-      <span class="circle-2"></span>
+      <span className="circle-1"></span>
+      <span className="circle-2"></span>
       <AboutMe />
+      <Projects />
     </div>
   );
 }
