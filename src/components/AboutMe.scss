@@ -1,0 +1,31 @@
+@import '../App.scss';
+
+.about-me {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
+th {
+  font: normal normal 700 0.9rem $font;
+  color: $primary;
+  text-align: center;
+  border-top: 1px solid $secundary !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+td {
+  font: normal normal 400 0.8rem $font;
+  color: $secundary;
+  text-align: center;
+  padding-bottom: 0rem !important;
+}
+
+tbody {
+  border-bottom: 1px solid $secundary !important;
+  padding-bottom: 0.2rem !important;
+
+}

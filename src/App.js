@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar'
 import './App.scss';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       </header>
       <span class="circle-1"></span>
       <span class="circle-2"></span>
-
+      <AboutMe />
     </div>
   );
 }
