@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: 'School tracker',
+    image: require('../images/school_tracker.png').default,
+    technologies: ['Ruby', 'Rails', 'JavaScript', 'React', 'Redux', 'NPM', 'HTML5', 'CSS', 'Rubocop'],
+    github: 'https://github.com/Zappat0n/school-tracker',
+    api: 'https://github.com/Zappat0n/school-tracker-api',
+    live: 'https://zappat0n.github.io/school-tracker/',
+    description: "This is a web application to track the evolution of the students in a school. The front end is built with React and Redux. The back end is built with Ruby on Rails and has been deployed to Heroku. PostgreSQL is the database employed to store the data."
+  }, {
     title: 'Elan manager app',
     image: require('../images/elan_manager_app.png').default,
     technologies: ['Ruby', 'Rails', 'Git', 'Gitflow', 'Rubocop', 'Styleint', 'Devise', 'Bootstrap'],

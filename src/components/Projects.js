@@ -5,7 +5,7 @@ import './Projects.scss'
 const Projects = () => {
   return (
     <div className="projects">
-      { projects.map((project => <Project key={project.title} project={project} /> )) }
+      { projects.map((project, index) => <Project key={index} project={project} /> ) }
     </div>
   );
 }
