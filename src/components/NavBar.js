@@ -1,4 +1,4 @@
-import logo from '../images/blue-white.png';
+import logo from '../blue-white.png';
 import './NavBar.scss';
 
 const NavBar = () => {
