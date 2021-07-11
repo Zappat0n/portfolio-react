@@ -3,8 +3,8 @@ import './Project.scss'
 
 const Project = (props) => {
   return (
-    <div className="project card my-3 p-3 m-2">
-      <h5 className="card-title">{props.project.title}</h5>
+    <div className="project card my-4 p-3 m-2">
+      <h3 className="card-title">{props.project.title}</h3>
       <p className="card-text card-description">{props.project.description}</p>
       <div className="card-text card-technologies">
         {props.project.technologies.map(
@@ -40,7 +40,7 @@ const Project = (props) => {
             </form>
           </div>) : ''}
       </div>
-      <img className="card-img" src={props.project.image} alt="Project" />
+      <img className="card-img mt-3" src={props.project.image} alt="Project" />
     </div>
   )
 }
